@@ -1,0 +1,25 @@
+.balance {
+    margin: auto;
+    position: fixed;
+    left: 50%;
+    bottom: 20px;
+    transform: translate(-50%, -5%);
+    width: 250px;
+    padding: 2px;
+    background-color: rgb(215, 215, 215);
+    transition: all ease-in-out .2s;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.balance:hover {
+    transform: translate(-50%, -10%);
+}
+
+.balance p {
+    margin-top: 6px;
+    padding: 5px;
+    font-size: 24px;
+    text-align: center;
+    transition: all ease-in-out .2s;
+}

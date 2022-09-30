@@ -1,0 +1,41 @@
+.income-expense {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+}
+
+.income-expense .card {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    transition: all ease-in-out .2s;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.income-expense .card:hover {
+    transform: scale(0.9);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+
+.income {
+    color: rgb(30, 98, 57);
+    border: 1px solid rgb(30, 98, 57);
+}
+.income:hover {
+    background-color: rgb(30, 98, 57);
+    color: white;
+}
+
+.expense {
+    color: rgb(196, 24, 24);
+    border: 1px solid rgb(196, 24, 24);
+}
+.expense:hover {
+    background-color: rgb(196, 24, 24);
+    color: white;
+}
